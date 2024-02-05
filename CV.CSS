@@ -49,7 +49,6 @@ body{
     
 }
 
-/*hover Underline css start*/
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -74,7 +73,6 @@ body{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  /*hover Underline css end*/
 
 
 .div_clear{
@@ -97,12 +95,10 @@ body{
     border: solid tomato 2px ;
     margin: 4px auto;
 }
-/*Main body start */
 
 
-/*Contact*/
 .c_left{
-    /*background-color: aqua;*/
+
     max-width: 35%;
     float: left;
     
@@ -123,7 +119,7 @@ body{
     
     text-decoration: underline;
 }
-/*Contact end*/
+
 
 
 .Shape{
@@ -180,9 +176,9 @@ body{
     left: -25px;
 }
 
-/*About me start*/
+
 .c_right{
-     /*background-color: aqua;*/
+
       max-width: 65%;
       float: right;   
   }
@@ -192,7 +188,7 @@ body{
 .about_me{
     position: relative;
 }
-/*About me end*/
+
 
 .b1{
     font-weight: 501;
@@ -212,7 +208,7 @@ body{
 
 }
 
-/*project me start*/
+
 .table1{
     max-width: 100%;
     height: 380px; 
@@ -263,30 +259,3 @@ body{
     margin-top: 20px;
 }
 
-
-/*hover Underline css start*/
-.hover-underline-animation2 {
-    display: inline-block;
-    position: relative;
-    color:white;
-  }
-  
-  .hover-underline-animation2::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background-color: tomato;
-    transform-origin: bottom right;
-    transition: transform 0.20s ease-out;
-    margin-top: 0px;
-  }
-  
-  .hover-underline-animation2:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  /*hover Underline css end*/
